@@ -26,6 +26,12 @@
             //Skriver ut attributerna för Väg2 i consolen
             Console.WriteLine($"Det här är en {Väg2.Material}väg som sträcker sig {Väg2.Längd} mil, den är {Väg2.Bredd} meter bred och har en maxfart på {Väg2.Maxfart}.");
 
+            //Skapar ett nytt objekt av klassen Polisspan
+            Polisspan Span = new Polisspan();
+
+            //Skriver ut ett meddelande som förklarar att det finns information användaren inte kommer åt
+            Span.EjÅtkomstMeddelande();
+
         }
     }
 }
