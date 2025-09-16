@@ -2,10 +2,14 @@
 
 namespace OOP_ovning
 {
-   public class Väg
+    //Skapar en klass som heter väg
+    public class Väg
+    
     {
+        //Skapar attributer som beskriver klassen
         public string Material;
-        public string Längd;
-        public string Bredd;
+        public double Längd;
+        public int Bredd;
+        public int Maxfart;
     }
 }
