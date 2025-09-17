@@ -36,7 +36,7 @@
             Väg2.VägB();
 
             //Skapar ett nytt objekt av klassen Polisspan
-            Polisspan Span = new Polisspan();
+            PolisSpan Span = new PolisSpan();
 
             //Skriver ut ett meddelande som förklarar att det finns information användaren inte kommer åt
             Span.EjÅtkomstMeddelande();
