@@ -1,8 +1,8 @@
 ﻿
 namespace OOP_ovning
 {
-    //Ny klass med känslig information om vart polisen ska ha fartkontroller varjedag
-    public class Polisspan
+    //Ny klass med känslig information om vart polisen ska ha fartkontroller varjedag, baseras på PolisSpanProtocol föra tt se till att den innehåller EjÅtkomstMeddelande
+    public class PolisSpan : PolisSpanProtocol
     {
         //En string för varje dag
         private string PlatsMåndag;
@@ -36,8 +36,8 @@ namespace OOP_ovning
             PlatsFredag = "Norra Hamngatan 53E";
         }
 
-        //En metod som skriver ut att användaren inte har åtkomskt till viss information
-        public void EjÅtkomstMeddelande()
+        //En metod som skriver ut att användaren inte har åtkomskt till viss information, override för att den ska fungera
+        public override void EjÅtkomstMeddelande()
         {
             Console.WriteLine("Hej denna informationen kommer inte du åt :)");
         }

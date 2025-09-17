@@ -3,7 +3,7 @@
 namespace OOP_ovning
 {
     //Skapar en klass som heter väg
-    public class Väg
+    public class Väg 
 
     {
         //Skapar attributer som beskriver klassen
