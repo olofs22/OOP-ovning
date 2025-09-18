@@ -39,9 +39,13 @@ namespace OOP_ovning
         //En metod som skriver ut att användaren inte har åtkomskt till viss information, override för att den ska fungera
         public override void EjÅtkomstMeddelande()
         {
-            Console.WriteLine("Hej denna informationen kommer inte du åt :)");
+            Console.WriteLine("Hej du får bara se informationen om fredag");
         }
-
+        //Tillåter att skriva ut PlatsFredag som är en privat sträng
+        public void PrintFre()
+        {
+            Console.WriteLine($"{PlatsFredag}");
+        }
     }
     
 }
