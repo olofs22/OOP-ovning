@@ -41,6 +41,8 @@
             //Skriver ut ett meddelande som förklarar att det finns information användaren inte kommer åt
             Span.EjÅtkomstMeddelande();
 
+            //Gör så att fredag får en "värde"
+            Span.SetFredag();
             //Skriver ut ett meddelande från en privat sträng
             Span.PrintFre();
 
