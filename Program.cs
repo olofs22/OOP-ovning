@@ -41,6 +41,9 @@
             //Skriver ut ett meddelande som förklarar att det finns information användaren inte kommer åt
             Span.EjÅtkomstMeddelande();
 
+            //Skriver ut ett meddelande från en privat sträng
+            Span.PrintFre();
+
             
             
 
